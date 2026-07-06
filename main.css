@@ -1,0 +1,26 @@
+::-webkit-scrollbar {width: 0; height: 0;}
+
+:root {
+  --рут: 1;
+    --макс: max(var(--общее), var(--рут));
+      --общее: calc((var(--ширина) + var(--текст)) / 2);
+  --ширина: 1;
+  --текст: 1;
+}
+
+body {
+    height: 100dvh;
+    width: 100vw;
+}
+
+* {
+    -ms-overflow-style: none;
+    margin: 0; 
+    box-sizing: border-box; 
+    scroll-behavior:smooth;
+    scrollbar-width: none;
+    border: none;
+    background: none;
+    overscroll-behavior: none;
+    -webkit-tap-highlight-color: transparent;
+}
