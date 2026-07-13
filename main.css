@@ -8,6 +8,8 @@
 
 
 
+
+
 html {
     width: 100%;
     height: 100%;
@@ -30,6 +32,8 @@ body {
 
 
 
+
+
 *::-webkit-scrollbar { display: none; }
 *, *::before, *::after {
     margin: 0; 
@@ -39,6 +43,8 @@ body {
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
+
+
 
 
 
@@ -63,4 +69,12 @@ img, picture, svg, video, canvas {
 a {
     color: inherit;
     text-decoration: none;
+}
+
+
+
+
+
+[hidden]{
+    display: none !important;
 }
