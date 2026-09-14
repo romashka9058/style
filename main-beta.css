@@ -27,7 +27,7 @@ html {
   scroll-behavior: smooth;
   height: 100%;
   width: 100%;
-  
+
   /* Font smoothing */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -156,4 +156,3 @@ a {
   height: 100%;
   pointer-events: none;
 }
-
